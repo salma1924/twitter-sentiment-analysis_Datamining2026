@@ -1,0 +1,161 @@
+# ==============================================================
+# Twitter Sentiment Analysis — .gitignore
+# Python | Jupyter | Streamlit | OS-specific
+# ==============================================================
+
+
+# ── Data Files (large / sensitive) ───────────────────────────
+data/raw/
+data/processed/*.csv
+data/processed/*.pkl
+*.csv
+*.tsv
+*.parquet
+
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.manifest
+*.spec
+
+
+# ── Virtual Environments ──────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+conda-env/
+
+
+# ── Environment Variables ─────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.py
+config/secrets.yaml
+
+
+# ── Jupyter Notebooks ─────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+profile_default/
+ipython_config.py
+
+
+# ── Trained Models & Checkpoints ─────────────────────────────
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+*.model
+*.bin
+
+
+# ── Streamlit ─────────────────────────────────────────────────
+.streamlit/secrets.toml
+__pycache__/
+
+
+# ── IDE & Editor ──────────────────────────────────────────────
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Spyder
+.spyderproject.cfg
+.spyproject/
+
+
+# ── OS-Specific ───────────────────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+# ── Logs & Temp ───────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+logs/
+tmp/
+temp/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# ── Reports & Outputs (keep source, ignore renders) ──────────
+reports/figures/*.png
+reports/figures/*.jpg
+reports/figures/*.svg
+*.pdf
+
+
+# ── Coverage & Testing ────────────────────────────────────────
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+
+# ── Miscellaneous ─────────────────────────────────────────────
+*.bak
+*.swp
+*.swo
+*.orig
