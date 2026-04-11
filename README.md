@@ -1,8 +1,6 @@
 # twitter-sentiment-analysis_Datamining2026
 
 # 🐦 Twitter Sentiment Analysis — Data Mining Project
-
-> **University Data Mining Project 
 > Sentiment classification, unsupervised clustering, and explainable AI on 1.6 million tweets.
 
 ---
